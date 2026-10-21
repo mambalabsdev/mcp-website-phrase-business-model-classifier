@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-website-phrase-business-model-classifier": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-website-phrase-business-model-classifier"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

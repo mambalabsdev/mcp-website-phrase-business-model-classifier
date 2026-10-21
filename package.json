@@ -1,0 +1,50 @@
+{
+  "name": "@mambalabsdev/mcp-website-phrase-business-model-classifier",
+  "version": "1.0.0",
+  "description": "MCP server for Website Phrase and Business Model Classifier. Classify company websites as B2B or B2C, SaaS, online store, agency, manufacturer, wholesaler, distributor, or marketplace, and match your own phrases, with quoted evidence from each site. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-website-phrase-business-model-classifier": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "website-classifier",
+    "b2b",
+    "business-model",
+    "lead-qualification",
+    "apify",
+    "clay",
+    "lead-generation"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/website-phrase-business-model-classifier",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-website-phrase-business-model-classifier"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-website-phrase-business-model-classifier"
+}
