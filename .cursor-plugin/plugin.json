@@ -1,7 +1,7 @@
 {
   "name": "mcp-website-phrase-business-model-classifier",
   "displayName": "Website Phrase and Business Model Classifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Website Phrase and Business Model Classifier. Classify company websites as B2B or B2C, SaaS, online store, agency, manufacturer, wholesaler, distributor, or marketplace, and match your own phrases, with quoted evidence from each site. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs",
